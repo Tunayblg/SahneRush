@@ -1,6 +1,8 @@
 # SahneRush 🎬
 
-**SahneRush** is a scene-guessing quiz game built with Flutter. Players are shown a scene image and have to answer questions about which show or movie it's from.
+**Spot the scene. Name the movie or show. Beat the clock.**
+
+SahneRush puts your movie and TV knowledge to the test with a visual quiz built in Flutter. Pick a category, play at your own pace or race through Time Attack to beat your local high score.
 
 ## About
 
