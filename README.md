@@ -45,33 +45,9 @@ lib/
 └── widgets/             # Reusable interface components
 ```
 
-## Run Locally
+## Requirements
 
-Use a Flutter SDK whose bundled Dart version satisfies `^3.12.2`, as declared in [pubspec.yaml](pubspec.yaml). Running the included iOS target requires macOS and an iOS development environment with Xcode.
-
-```sh
-git clone https://github.com/Tunayblg/SahneRush.git
-cd SahneRush
-flutter pub get
-```
-
-Before launching, restore the image assets referenced by [question_data.dart](lib/data/question_data.dart) and [series_data.dart](lib/data/series_data.dart), or update those references to your own images. Most quiz images are not committed. The asset directories declared in `pubspec.yaml` are:
-
-```text
-assets/audio/
-assets/images/series/
-assets/images/gorseller/friends/
-assets/images/gorseller/aot/
-assets/images/gorseller/himym/
-assets/images/gorseller/got/
-```
-
-Preserve the referenced filenames and directory structure when restoring assets. Audio files are included. Once the declared asset directories are populated and an iOS device or simulator is available:
-
-```sh
-flutter devices
-flutter run -d <device-id>
-```
+Requires Flutter with Dart ^3.12.2 and an iOS development environment. Local quiz images are not included and must be supplied separately.
 
 ## Add Your Own Questions
 
